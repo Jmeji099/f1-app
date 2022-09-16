@@ -15,7 +15,7 @@ def create_server_connection():
             user='root',
             password='backendservice',
             host='localhost',
-            database='' )
+            database='f1App')
         print("MySQL Database connection Successful")
 
     except Error as e:
