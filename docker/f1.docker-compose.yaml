@@ -1,0 +1,5 @@
+services:
+  mysql-development:
+    image: f1-sql:latest
+    ports:
+      - "3308:3306"
